@@ -1,10 +1,12 @@
-extern  crate rand;
+extern crate rand;
 
-use std::io;
-use std::cmp::Ordering;
-use rand::Rng;
+pub mod guessing_number_mod {
+    use std::{
+        io, cmp::Ordering
+    };
 
-pub mod Guessing_number {
+    use rand::Rng;
+
     pub fn guessing_number() {
         // !가 붙어있으면 메소드가 아니라 Rust Macro이다
         println!("Guess The Number!");

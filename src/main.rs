@@ -1,9 +1,7 @@
-extern  crate rand;
-
-use std::io;
-use std::cmp::Ordering;
-use rand::Rng;
+// directory name == mod
+mod guessing_number;
 
 fn main() {
-
+    /* Day 1: Guessing Number Practice */
+    guessing_number::guessing_number_mod::guessing_number();
 }
