@@ -2,7 +2,7 @@ pub mod rust_programming_concepts {
     /// let은 '변수' 지만 mut 키워드 없이는 불변한다.
     /// 그러나 variable Shadowing이 있다면 같은 이름의 변수를 재활용할 수 있다.
     /// 이 경우 타입의 변환이 가능하다.
-    pub fn variable_control_shadowing() {
+    fn _variable_control_shadowing() {
         let my_mutable_variable = "";
         println!("My First Shadowing Variable: {}", my_mutable_variable);
 
@@ -15,7 +15,7 @@ pub mod rust_programming_concepts {
 
     /// mut 키워드와 함께 쓴다면 여타 프로그래밍 언어의 변수처럼 사용할 수 있다.
     /// 그러나 이 경우, 이름을 대체할 수는 없기 때문에 타입 변경 또한 불가능하다.
-    pub fn variable_control_mut() {
+    fn _variable_control_mut() {
         let mut my_mutable_variable = "";
         my_mutable_variable = "Hi";
         println!("My Mutable Variable: {}", my_mutable_variable);
@@ -26,7 +26,7 @@ pub mod rust_programming_concepts {
     /// 상수는 당연히 불가변하며, 대문자 snake 표기한다.
     /// const 키워드로 선언한다.
     /// 모든 상수는 타입을 명시해야 한다.
-    pub fn const_control() {
+    fn _const_control() {
         const MY_CONSTANT: &str = "";
     }
 }

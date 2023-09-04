@@ -7,7 +7,7 @@ pub mod guessing_number_mod {
 
     use rand::Rng;
 
-    pub fn guessing_number() {
+    fn _guessing_number() {
         // !가 붙어있으면 메소드가 아니라 Rust Macro이다
         println!("Guess The Number!");
 
